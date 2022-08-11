@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        int size;
         int[] array;
         Scanner sc = new Scanner(System.in);
 
@@ -29,20 +28,21 @@ public class Main {
             System.out.println("\nNhập vị trí chèn: ");
             index = sc.nextInt();
             if ((index > length - 1 || index < 0)) {
-                System.out.println("V trí không thỏa mãn");
+                System.out.println("Vị trí không thỏa mãn");
             }
         } while (index > length - 1 || index < 0);
 
-        for (int j = index; j < length; j++) {
 
+        length++;
+        for (int j = length - 1; j > index; j--) {
+            array[j] = array[j - 1];
         }
+        array[index] = x;
 
-
-
-            System.out.printf("%-20s", "Phần tử của mảng : ");
-            for (int j = 0; j < array.length; j++) {
-                System.out.print(array[j] + "\t");
-            }
+        System.out.printf("%-20s", "Phần tử của mảng : ");
+        for (int j = 0; j < length; j++) {
+            System.out.print(array[j] + "\t");
+        }
 
 
     }

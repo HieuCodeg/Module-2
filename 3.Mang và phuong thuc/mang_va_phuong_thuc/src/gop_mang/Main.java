@@ -43,12 +43,12 @@ public class Main {
         }
 
         System.out.printf("%-21s", "Phần tử của mảng 1: ");
-        for (int j = 0; j < array1.length; j++) {
-            System.out.print(array1[j] + "\t");
+        for (int element : array1) {
+            System.out.print(element + "\t");
         }
         System.out.printf("%-22s", "\nPhần tử của mảng 2: ");
-        for (int j = 0; j < array2.length; j++) {
-            System.out.print(array2[j] + "\t");
+        for (int item : array2) {
+            System.out.print(item + "\t");
         }
 
         int[] array3 = new int[size1 + size2];
@@ -62,8 +62,8 @@ public class Main {
         }
 
         System.out.printf("%-22s", "\nPhần tử của mảng 3: ");
-        for (int j = 0; j < array3.length; j++) {
-            System.out.print(array3[j] + "\t");
+        for (int value : array3) {
+            System.out.print(value + "\t");
         }
     }
 }
