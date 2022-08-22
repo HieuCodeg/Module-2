@@ -25,6 +25,16 @@ public class AscendingString {
             }
         }
         return result;
+         /* Tính độ phức tạp bài toán:
+            1 vòng lặp bên ngoài = n;
+            1 vòng lặp bên trong = n -1;
+            1 câu lệnh = 1;
+            T(n) = n * (n - 1) + 1;
+            t(n) = O(n^2) + O(n);
+            t(n) = O(n^2);
+            => Độ phức tạp bài toán này là O(n^2)
+            */
+
     }
 
     public static void main(String[] args) {
