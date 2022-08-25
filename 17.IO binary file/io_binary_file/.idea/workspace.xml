@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36869bf0-ceda-45f2-8a45-f88e0ad767b9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../16. IO text file/io_text_file/src/Test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io_binary_file.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/copy_file_nhi_phan/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/file_dung_luong_lon/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/quan_li_san_pham/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/quan_li_san_pham/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sinh_vien/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sinh_vien/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7. abstract class va interface/abstract_class_interface/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7. abstract class va interface/abstract_class_interface/src/bai_tap/Certificate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7. abstract class va interface/abstract_class_interface/src/bai_tap/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7. abstract class va interface/abstract_class_interface/src/bai_tap/Experience.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7. abstract class va interface/abstract_class_interface/src/bai_tap/Fresher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7. abstract class va interface/abstract_class_interface/src/bai_tap/Intern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7. abstract class va interface/abstract_class_interface/src/bai_tap/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16. IO text file/io_text_file/out/production/io_text_file/copy_file_text/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../16. IO text file/io_text_file/out/production/io_text_file/copy_file_text/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16. IO text file/io_text_file/out/production/io_text_file/read_file_example/ReadFileExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../16. IO text file/io_text_file/out/production/io_text_file/read_file_example/ReadFileExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16. IO text file/io_text_file/src/copy_file_text/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../16. IO text file/io_text_file/src/copy_file_text/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. IO Binary File  Serialization/io_binary_file_serialization/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. IO Binary File  Serialization/io_binary_file_serialization/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. IO Binary File  Serialization/io_binary_file_serialization/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. IO Binary File  Serialization/io_binary_file_serialization/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. IO Binary File  Serialization/io_binary_file_serialization/io_binary_file_serialization.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. IO Binary File  Serialization/io_binary_file_serialization/out/production/io_binary_file_serialization/Test/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. IO Binary File  Serialization/io_binary_file_serialization/src/Test/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. IO Binary File  Serialization/io_binary_file_serialization/text.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DkZjWydCeGFbvAV1cMcyZ0iDcU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/GitHub/Module-2/7. abstract class va interface/abstract_class_interface&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHub\Module-2\17.IO binary file\io_binary_file" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.copy_file_nhi_phan.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sinh_vien.Main" />
+      <module name="io_binary_file" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sinh_vien.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="copy_file_nhi_phan.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="copy_file_nhi_phan.Main" />
+      <module name="io_binary_file" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="copy_file_nhi_phan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="quan_li_san_pham.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quan_li_san_pham.Main" />
+      <module name="io_binary_file" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quan_li_san_pham.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.copy_file_nhi_phan.Main" />
+        <item itemvalue="Application.quan_li_san_pham.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36869bf0-ceda-45f2-8a45-f88e0ad767b9" name="Changes" comment="" />
+      <created>1661245180041</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661245180041</updated>
+      <workItem from="1661245181312" duration="16000" />
+      <workItem from="1661245219625" duration="7225000" />
+      <workItem from="1661266394454" duration="851000" />
+      <workItem from="1661272186490" duration="1377000" />
+      <workItem from="1661301687666" duration="14098000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

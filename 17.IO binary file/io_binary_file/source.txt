@@ -1,0 +1,25 @@
+Java FileOutputStream là một output stream được sử dụng để ghi dữ liệu vào một file theo định dạng byte (byte stream).
+
+Sử dụng lớp FileOutputStream trong java, nếu bạn phải ghi các giá trị nguyên thủy vào một file. Bạn có thể ghi dữ liệu theo định dạng byte hoặc định dạng ký tự thông qua lớp FileOutputStream. Tuy nhiên, đối với các dữ liệu được ghi theo ký tự, sử dụng FileWriter thích hợp hơn FileOutStream.
+
+Khai báo của lớp FileOutputStream
+
+Dưới đây là khi báo của lớp Java.io.FileOutputStream:
+
+?
+1
+public class FileOutputStream extends OutputStream
+Nội dung chính
+
+Các phương thức của lớp FileOutputStream trong java
+Ví dụ 1 về Java FileOutputStream : write byte
+Ví dụ 2 về Java FileOutputStream : write String
+Các phương thức của lớp FileOutputStream trong java
+Method	Description
+protected void finalize()	Nó được sử dụng để làm sạch kết nối với file output stream.
+void write(byte[] ary)	Nó được sử dụng để ghi ary.length bytes từ mảng byte đến file output stream.
+void write(byte[] ary, int off, int len)	Nó được sử dụng để viết len bytes từ mảng byte bắt đầu từ off tới file output stream.
+void write(int b)	Nó được sử dụng để ghi byte cụ thể đến file output stream.
+FileChannel getChannel()	Nó được sử dụng để trả lại đối tượng channel tập tin kết hợp với file output stream.
+FileDescriptor getFD()	Nó được sử dụng để trả lại các mô tả của file liên quan đến stream.
+void close()	Nó được sử dụng để đóng file output stream.
