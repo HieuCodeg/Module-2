@@ -1,40 +1,32 @@
 package test;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
 
-//        ArrayList<Integer> list = new ArrayList<Integer>();
-//        list.add(1);
-//        list.add(2);
-//        list.add(3);
-//        list.add(4);
-//        list.add(5);
-//
-//        System.out.println(list);
-//        list.ensureCapacity(6);
-//        ArrayList<Integer> list1 = (ArrayList<Integer>) list.clone();
-//        System.out.println(list1);
-//        ArrayList<Integer> list2 = new ArrayList<>();
-//        list2 = list;
-//        System.out.println(list2);
-//        System.out.println(list.contains(5));
-//        System.out.println(list.get(7));
+        Set<String> list1 = new HashSet<>();
 
-        LinkedList<Integer> list = new LinkedList<>();
-        list.add(2);
-        list.add(3);
-        list.add(5);
-        list.addFirst(1);
-        list.addLast(9);
-        list.remove( "3");
-        System.out.println(list);
+        list1.add("L");
+        list1.add("R");
+        list1.add("M");
+//        list1.add("M");
+//        list1.add("R");
+//        list1.add("L");
 
-        LinkedList<Integer> list1 =  (LinkedList<Integer>) list.clone();
+        System.out.println(list1.size());
         System.out.println(list1);
 
+        Set<String> list2 = new TreeSet<>();
 
+        list2.add("L");
+        list2.add("R");
+        list2.add("M");
+//        list2.add("M");
+//        list2.add("R");
+//        list2.add("L");
+
+        System.out.println(list2.size());
+        System.out.println(list2);
     }
 }

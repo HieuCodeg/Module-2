@@ -1,57 +1,70 @@
 package refactoring;
 
 public class TennisGame {
-    public static String getScore(String player1Name, String player2Name, int player1Score, int player2Score) {
+
+    public static final String LOVE_ALL = "Love-All";
+    public static final String FIFTEEN_ALL = "Fifteen-All";
+    public static final String THIRTY_ALL = "Thirty-All";
+    public static final String FORTY_ALL = "Forty-All";
+    public static final String DEUCE = "Deuce";
+    public static final String ADVANTAGE_PLAYER_1 = "Advantage player1";
+    public static final String ADVANTAGE_PLAYER_2 = "Advantage player2";
+    public static final String WIN_FOR_PLAYER_1 = "Win for player1";
+    public static final String WIN_FOR_PLAYER_2 = "Win for player2";
+
+    public static String deuce(int score) {
+        switch (score) {
+            case 0:
+                return LOVE_ALL;
+            case 1:
+                return FIFTEEN_ALL;
+            case 2:
+                return THIRTY_ALL;
+
+            case 3:
+                return FORTY_ALL;
+            default:
+                return DEUCE;
+        }
+    }
+
+    public static String advantage(int score) {
+        switch (score) {
+            case 1:
+                return ADVANTAGE_PLAYER_1;
+            case -1:
+                return ADVANTAGE_PLAYER_2;
+            default:
+                return score >= 2 ? WIN_FOR_PLAYER_1 : WIN_FOR_PLAYER_2;
+        }
+    }
+
+    public static String zeroToThree(int tempScore) {
+        switch (tempScore) {
+            case 0:
+                return  "Love";
+            case 1:
+                return "Fifteen";
+            case 2:
+                return "Thirty";
+            case 3:
+                return "Forty";
+            default:
+                return "";
+        }
+    }
+
+    public static String getScore(int scorePlayer1, int scorePlayer2) {
         String score = "";
         int tempScore = 0;
-        if (player1Score == player2Score) {
-            switch (player1Score) {
-                case 0:
-                    score = "Love-All";
-                    break;
-                case 1:
-                    score = "Fifteen-All";
-                    break;
-                case 2:
-                    score = "Thirty-All";
-                    break;
-                case 3:
-                    score = "Forty-All";
-                    break;
-                default:
-                    score = "Deuce";
-                    break;
-
-            }
-        } else if (player1Score >= 4 || player2Score >= 4) {
-            int minusResult = player1Score - player2Score;
-            if (minusResult == 1) score = "Advantage player1";
-            else if (minusResult == -1) score = "Advantage player2";
-            else if (minusResult >= 2) score = "Win for player1";
-            else score = "Win for player2";
-        } else {
-            for (int i = 1; i < 3; i++) {
-                if (i == 1) tempScore = player1Score;
-                else {
-                    score += "-";
-                    tempScore = player2Score;
-                }
-                switch (tempScore) {
-                    case 0:
-                        score += "Love";
-                        break;
-                    case 1:
-                        score += "Fifteen";
-                        break;
-                    case 2:
-                        score += "Thirty";
-                        break;
-                    case 3:
-                        score += "Forty";
-                        break;
-                }
-            }
+        if (scorePlayer1 == scorePlayer2) {
+            return deuce(scorePlayer1);
         }
-        return score;
+        if (scorePlayer1 >= 4 || scorePlayer2 >= 4) {
+            int minusResult = scorePlayer1 - scorePlayer2;
+            return advantage(minusResult);
+
+        }
+        return zeroToThree(scorePlayer1) + "-" + zeroToThree(scorePlayer2);
     }
 }
