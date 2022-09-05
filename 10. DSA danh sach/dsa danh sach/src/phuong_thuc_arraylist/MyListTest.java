@@ -18,5 +18,6 @@ public class MyListTest {
         System.out.println(list.get(5));
         list1.clear();
         System.out.println(list1.size());
+        MyList<String> lsis = new MyList<>();
     }
 }

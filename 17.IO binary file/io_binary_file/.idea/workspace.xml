@@ -2,35 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36869bf0-ceda-45f2-8a45-f88e0ad767b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../16. IO text file/io_text_file/src/Test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io_binary_file.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/copy_file_nhi_phan/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file_dung_luong_lon/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/quan_li_san_pham/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/quan_li_san_pham/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sinh_vien/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sinh_vien/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../7. abstract class va interface/abstract_class_interface/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../7. abstract class va interface/abstract_class_interface/src/bai_tap/Certificate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../7. abstract class va interface/abstract_class_interface/src/bai_tap/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../7. abstract class va interface/abstract_class_interface/src/bai_tap/Experience.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../7. abstract class va interface/abstract_class_interface/src/bai_tap/Fresher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../7. abstract class va interface/abstract_class_interface/src/bai_tap/Intern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../7. abstract class va interface/abstract_class_interface/src/bai_tap/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../16. IO text file/io_text_file/out/production/io_text_file/copy_file_text/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../16. IO text file/io_text_file/out/production/io_text_file/copy_file_text/result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../16. IO text file/io_text_file/out/production/io_text_file/read_file_example/ReadFileExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../16. IO text file/io_text_file/out/production/io_text_file/read_file_example/ReadFileExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../16. IO text file/io_text_file/src/copy_file_text/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../16. IO text file/io_text_file/src/copy_file_text/result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17. IO Binary File  Serialization/io_binary_file_serialization/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17. IO Binary File  Serialization/io_binary_file_serialization/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17. IO Binary File  Serialization/io_binary_file_serialization/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17. IO Binary File  Serialization/io_binary_file_serialization/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17. IO Binary File  Serialization/io_binary_file_serialization/io_binary_file_serialization.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17. IO Binary File  Serialization/io_binary_file_serialization/out/production/io_binary_file_serialization/Test/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17. IO Binary File  Serialization/io_binary_file_serialization/src/Test/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17. IO Binary File  Serialization/io_binary_file_serialization/text.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11.DSA stack queue/dsa stack queue/src/baitap/QueueLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_tap/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_tap/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19. string va regex/string_regex/src/thuoc_tinh_css/CSSExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19. string va regex/string_regex/src/thuoc_tinh_css/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19. string va regex/string_regex/src/tindung_validex/CredictExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19. string va regex/string_regex/src/tindung_validex/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/manager/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/manager/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/manager/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/manager/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case study/case_study/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case study/case_study/data/dictionary.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case study/case_study/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case study/case_study/src/menu/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case study/case_study/src/menu/Edit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case study/case_study/src/menu/Find.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case study/case_study/src/menu/Remove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case study/case_study/src/menu/Show.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case study/case_study/src/structor/Define.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case study/case_study/src/structor/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case study/case_study/src/structor/Entities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case study/case_study/src/structor/Meaning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case study/case_study/src/until/Read.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10. DSA danh sach/dsa danh sach/src/phuong_thuc_arraylist/MyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../10. DSA danh sach/dsa danh sach/src/phuong_thuc_arraylist/MyListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12. Java collection framework/java collection framework/out/production/java collection framework/cay_nhi_phan/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../12. Java collection framework/java collection framework/out/production/java collection framework/cay_nhi_phan/BST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.txt" beforeDir="false" afterPath="$PROJECT_DIR$/products.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19. string va regex/string_regex/out/production/string_regex/crawl_news/CrawNewExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../19. string va regex/string_regex/out/production/string_regex/crawl_news/CrawNewExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19. string va regex/string_regex/out/production/string_regex/danh_sach_bai_hat/CrawlSongExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../19. string va regex/string_regex/out/production/string_regex/danh_sach_bai_hat/CrawlSongExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19. string va regex/string_regex/src/crawl_news/CrawNewExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../19. string va regex/string_regex/src/crawl_news/CrawNewExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19. string va regex/string_regex/src/danh_sach_bai_hat/CrawlSongExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../19. string va regex/string_regex/src/danh_sach_bai_hat/CrawlSongExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +68,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/GitHub/Module-2/7. abstract class va interface/abstract_class_interface&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/GitHub/Module-2/17.IO binary file/io_binary_file&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
 }</component>
@@ -74,13 +77,39 @@
       <recent name="C:\GitHub\Module-2\17.IO binary file\io_binary_file" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.copy_file_nhi_phan.Main">
+  <component name="RunManager" selected="Application.quan_li_san_pham.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sinh_vien.Main" />
       <module name="io_binary_file" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sinh_vien.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_tap.Test" />
+      <module name="io_binary_file" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai_tap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bai_tap.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_tap.Main" />
+      <module name="io_binary_file" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai_tap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,8 +145,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.copy_file_nhi_phan.Main" />
         <item itemvalue="Application.quan_li_san_pham.Main" />
+        <item itemvalue="Application.bai_tap.Main" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.copy_file_nhi_phan.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -135,6 +166,11 @@
       <workItem from="1661266394454" duration="851000" />
       <workItem from="1661272186490" duration="1377000" />
       <workItem from="1661301687666" duration="14098000" />
+      <workItem from="1661739546861" duration="4537000" />
+      <workItem from="1661780483275" duration="1379000" />
+      <workItem from="1661820562637" duration="7008000" />
+      <workItem from="1661910063201" duration="67000" />
+      <workItem from="1661935217604" duration="963000" />
     </task>
     <servers />
   </component>
