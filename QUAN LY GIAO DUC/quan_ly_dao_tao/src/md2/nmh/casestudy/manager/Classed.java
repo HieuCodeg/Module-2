@@ -1,17 +1,30 @@
 package md2.nmh.casestudy.manager;
 
-import java.util.ArrayList;
+import md2.nmh.casestudy.services.ParseDate;
 
-public class Class {
+import java.util.ArrayList;
+import java.util.List;
+
+public class Classed {
     private String name;
-    private int total;
-    private Teacher headTeacher;
+    private int total = 0;
+    private String headTeacher;
     private ArrayList<Student> studentslist = new ArrayList<>();
 
-    public Class(String name, int total, Teacher headTeacher) {
+    public Classed(String name, String headTeacher) {
         this.name = name;
-        this.total = total;
         this.headTeacher = headTeacher;
+    }
+
+    public Classed() {
+    }
+
+    public static Classed parseInfo(String line) {
+        Classed classed = new Classed();
+        String[] informationsList = line.split(",");
+        classed.name = informationsList[0];
+        classed.headTeacher = informationsList[1];
+        return classed;
     }
 
     public String getName() {
@@ -26,24 +39,28 @@ public class Class {
         return total;
     }
 
-    public void setTotal(int total) {
-        this.total = total;
+    public void setTotal() {
+        this.total = ++this.total;
     }
 
-    public Teacher getHeadTeacher() {
+    public String getHeadTeacher() {
         return headTeacher;
     }
 
-    public void setHeadTeacher(Teacher headTeacher) {
+    public void setHeadTeacher(String headTeacher) {
         this.headTeacher = headTeacher;
     }
 
-    public ArrayList<Student> getStudentslist() {
+    public List<Student> getStudentslist() {
         return studentslist;
     }
 
     public void setStudentslist(ArrayList<Student> studentslist) {
         this.studentslist = studentslist;
+    }
+
+    public void add(Student student) {
+        this.studentslist.add(student);
     }
 
     @Override

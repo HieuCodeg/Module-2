@@ -1,10 +1,10 @@
-package tindung_validex;
+package pasword_validex;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class CredictExample {
-    private static final String CREDICT = "^[1-9]{1}[0-9]{15}$";
+    private static final String CREDICT = "((?=.*d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!.#$@_+,?-]).{8,50})";
 
     public CredictExample() {
     }

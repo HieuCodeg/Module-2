@@ -1,44 +1,114 @@
 package md2.nmh.casestudy.statistic;
 
+import md2.nmh.casestudy.manager.Person;
 import md2.nmh.casestudy.manager.Student;
+import md2.nmh.casestudy.services.FileUtil;
+import md2.nmh.casestudy.services.ScoreUtil;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
-public class StudentsList {
+public class StudentsList implements IPersonList{
+    public final static String PATH = "data/student.csv";
     private static StudentsList instance;
     public static StudentsList getInstance() {
         if (instance == null)
             instance = new StudentsList();
         return instance;
     }
-    ArrayList<Student> students = new ArrayList<>();
 
     public StudentsList() {
     }
 
     public List<Student> findAll() {
+        List<Student> students = new ArrayList<>();
+        List<String> lineList = FileUtil.read(PATH);
+        for (String line: lineList) {
+            students.add(Student.parseInfo(line));
+        }
+        ScoreUtil.read(students);
         return students;
     }
 
-    public void add(Student newStudent) {
+    public void add(Person newStudent) {
         List<Student> students = findAll();
-        students.add(newStudent);
-    }
-    public Student findById(long id) {
-        for (Student student : findAll()) {
-            if (student.getId() == id)
-                return student;
-        }
-        return null;
+        students.add((Student) newStudent);
+        FileUtil.write(PATH,students);
     }
 
     public boolean existsById(long id) {
-        return findById(id) != null;
+        List<Student> students = findAll();
+        for (Student student : students) {
+            if (student.getId() == id)
+                return true;
+        }
+        return false;
+    }
+    public boolean existByName(String name) {
+        List<Student> students = findAll();
+        for (Student student : students) {
+            if (student.getName().equals(name)) {
+                return true;
+            }
+        }
+        return false;
     }
 
     public void remove(Student student) {
-        students.remove(student);
+        List<Student> students = findAll();
+        for (int i = 0; i < students.size(); i++) {
+            if (students.get(i).getId() == student.getId()) {
+                students.remove(i);
+                break;
+            }
+        }
+//        students.remove(student);
+        FileUtil.write(PATH,students);
+        FileUtil.writeScore("data/score.csv",students);
     }
 
+    public Student getById(long id) {
+        List<Student> students = findAll();
+        for (Student student: students) {
+            if (student.getId() == id) {
+                return student;
+            }
+        }
+        return null;
+    }
+    public void sortByName() {
+        List<Student> students = findAll();
+        Collections.sort(students, new Comparator<Student>() {
+            @Override
+            public int compare(Student o1, Student o2) {
+                return o1.getLastName().compareTo(o2.getLastName());
+            }
+        });
+        FileUtil.write(PATH,students);
+        System.out.println("Sắp xếp xong!");
+    }
+    public void sortByBirthday() {
+        List<Student> students = findAll();
+        Collections.sort(students, new Comparator<Student>() {
+            @Override
+            public int compare(Student o1, Student o2) {
+                return o2.getBirthday().compareTo(o1.getBirthday());
+            }
+        });
+        FileUtil.write(PATH,students);
+        System.out.println("Sắp xếp xong!");
+    }
+    public void sortByClass() {
+        List<Student> students = findAll();
+        Collections.sort(students, new Comparator<Student>() {
+            @Override
+            public int compare(Student o1, Student o2) {
+                return o1.getClassed().compareTo(o2.getClassed());
+            }
+        });
+        FileUtil.write(PATH,students);
+        System.out.println("Sắp xếp xong!");
+    }
 }

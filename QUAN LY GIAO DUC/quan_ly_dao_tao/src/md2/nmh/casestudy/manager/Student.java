@@ -1,43 +1,34 @@
 package md2.nmh.casestudy.manager;
 
-import java.time.LocalDate;
-
-public class Student {
+public class Student extends Person {
     private long id;
-    private String name;
-    private String gender;
-    private LocalDate birthday;
-    private String phoneNumber;
     private String email;
-    private String classed;
-    private Teacher headTeacher;
-    private ScoreStudent myScore = new ScoreStudent();
+    private String phoneNumber;
+    private ScoreStudent score = new ScoreStudent();
 
-    public Student(long id, String name, String gender, LocalDate birthday, String phoneNumber, String email, String classed, Teacher headTeacher) {
+    public Student() {
+        this.id = System.currentTimeMillis() - 1663165000000l;
+    }
+
+    public Student(String name, Gender gender, String birthday, String classed, long id, String email, String phoneNumber, ScoreStudent score) {
+        super(name, gender, birthday, classed);
         this.id = id;
-        this.name = name;
-        this.gender = gender;
-        this.birthday = birthday;
-        this.phoneNumber = phoneNumber;
         this.email = email;
-        this.classed = classed;
-        this.headTeacher = headTeacher;
+        this.phoneNumber = phoneNumber;
+        this.score = score;
     }
 
-    public Teacher getHeadTeacher() {
-        return headTeacher;
-    }
-
-    public void setHeadTeacher(Teacher headTeacher) {
-        this.headTeacher = headTeacher;
-    }
-
-    public String getClassed() {
-        return classed;
-    }
-
-    public void setClassed(String classed) {
-        this.classed = classed;
+    public static Student parseInfo(String line) {
+        Student student = new Student();
+        String[] informationsList = line.split(",");
+        student.setId(Long.parseLong(informationsList[0]));
+        student.setName(informationsList[1]);
+        student.setGender(informationsList[2].equals("Nam") ? Gender.Nam : Gender.Nữ);
+        student.setBirthday(informationsList[3]);
+        student.setPhoneNumber(informationsList[4]);
+        student.setEmail(informationsList[5]);
+        student.setClassed(informationsList[6]);
+        return student;
     }
 
     public long getId() {
@@ -48,28 +39,12 @@ public class Student {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getEmail() {
+        return email;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getGender() {
-        return gender;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
-
-    public LocalDate getBirthday() {
-        return birthday;
-    }
-
-    public void setBirthday(LocalDate birthday) {
-        this.birthday = birthday;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getPhoneNumber() {
@@ -80,25 +55,29 @@ public class Student {
         this.phoneNumber = phoneNumber;
     }
 
-    public String getEmail() {
-        return email;
+    public ScoreStudent getScoreStudent() {
+        return score;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setScore(ScoreStudent score) {
+        this.score = score;
+    }
+    public String getScoreString() {
+        String result = String.valueOf(getId());
+        result += getScoreStudent().toString();
+        return result;
     }
 
     @Override
     public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", gender='" + gender + '\'' +
-                ", birthday=" + birthday +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                ", email='" + email + '\'' +
-                ", classed='" + classed + '\'' +
-                ", headTeacher=" + headTeacher +
-                '}';
+        return String.format("%d,%s,%s,%s,%s,%s,%s",
+                id,
+                super.getName(),
+                super.getGender(),
+                super.getBirthdayString(),
+                phoneNumber,
+                email,
+                super.getClassed()
+        );
     }
 }

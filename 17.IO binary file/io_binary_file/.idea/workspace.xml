@@ -2,38 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36869bf0-ceda-45f2-8a45-f88e0ad767b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../11.DSA stack queue/dsa stack queue/src/baitap/QueueLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_tap/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_tap/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../19. string va regex/string_regex/src/thuoc_tinh_css/CSSExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../19. string va regex/string_regex/src/thuoc_tinh_css/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../19. string va regex/string_regex/src/tindung_validex/CredictExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../19. string va regex/string_regex/src/tindung_validex/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/manager/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/manager/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/manager/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/manager/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../case study/case_study/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../case study/case_study/data/dictionary.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../case study/case_study/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../case study/case_study/src/menu/Add.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../case study/case_study/src/menu/Edit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../case study/case_study/src/menu/Find.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../case study/case_study/src/menu/Remove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../case study/case_study/src/menu/Show.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../case study/case_study/src/structor/Define.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../case study/case_study/src/structor/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../case study/case_study/src/structor/Entities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../case study/case_study/src/structor/Meaning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../case study/case_study/src/until/Read.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../10. DSA danh sach/dsa danh sach/src/phuong_thuc_arraylist/MyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../10. DSA danh sach/dsa danh sach/src/phuong_thuc_arraylist/MyListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12. Java collection framework/java collection framework/out/production/java collection framework/cay_nhi_phan/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../12. Java collection framework/java collection framework/out/production/java collection framework/cay_nhi_phan/BST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16. IO text file/io_text_file/src/demo_function_file/FileExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_tap/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doc_ghi_file_nhi_phan/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doc_ghi_file_nhi_phan/WriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testText.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/data/classed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/data/score.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/manager/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/manager/InputOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/manager/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/manager/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/manager/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/manager/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/services/AppUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/services/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/services/InformationInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/services/ParseDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/services/ScoreUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/services/Validex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/statistic/IPersonList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/statistic/TeacherList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/views/ClassMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/views/LoginView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/views/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/views/ManagerView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/views/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/views/StudentMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/views/TeacherMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16. IO text file/io_text_file/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../16. IO text file/io_text_file/result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products.txt" beforeDir="false" afterPath="$PROJECT_DIR$/products.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19. string va regex/string_regex/out/production/string_regex/crawl_news/CrawNewExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../19. string va regex/string_regex/out/production/string_regex/crawl_news/CrawNewExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19. string va regex/string_regex/out/production/string_regex/danh_sach_bai_hat/CrawlSongExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../19. string va regex/string_regex/out/production/string_regex/danh_sach_bai_hat/CrawlSongExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19. string va regex/string_regex/src/crawl_news/CrawNewExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../19. string va regex/string_regex/src/crawl_news/CrawNewExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19. string va regex/string_regex/src/danh_sach_bai_hat/CrawlSongExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../19. string va regex/string_regex/src/danh_sach_bai_hat/CrawlSongExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/copy.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/io_binary_file/file_dung_luong_lon/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/io_binary_file/file_dung_luong_lon/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file_dung_luong_lon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file_dung_luong_lon/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19. string va regex/string_regex/out/production/string_regex/tindung_validex/CredictExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19. string va regex/string_regex/out/production/string_regex/tindung_validex/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19. string va regex/string_regex/src/tindung_validex/CredictExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../19. string va regex/string_regex/src/pasword_validex/CredictExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19. string va regex/string_regex/src/tindung_validex/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../19. string va regex/string_regex/src/pasword_validex/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. abstract class va interface/abstract_class_interface/out/production/abstract_class_interface/interface_resizeable/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../7. abstract class va interface/abstract_class_interface/out/production/abstract_class_interface/interface_resizeable/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/data/score10B" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/data/score11A" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/data/student.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/data/student.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/data/teacher.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/data/teacher.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/manager/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/manager/Classed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/manager/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/manager/Score.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/manager/ScoreStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/manager/ScoreStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/manager/ScoreSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/manager/ScoreSubject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/manager/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/manager/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/manager/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/manager/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/statistic/ClassList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/statistic/ClassList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/statistic/StudentsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/statistic/StudentsList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QUAN LY GIAO DUC/quan_ly_dao_tao/src/md2/nmh/casestudy/statistic/SubjectList.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,13 +98,26 @@
       <recent name="C:\GitHub\Module-2\17.IO binary file\io_binary_file" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.quan_li_san_pham.Main">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sinh_vien.Main" />
       <module name="io_binary_file" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sinh_vien.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doc_ghi_file_nhi_phan.ReadFile" />
+      <module name="io_binary_file" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="doc_ghi_file_nhi_phan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bai_tap.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_tap.Main" />
+    <configuration name="WriteFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doc_ghi_file_nhi_phan.WriteFile" />
       <module name="io_binary_file" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_tap.*" />
+          <option name="PATTERN" value="doc_ghi_file_nhi_phan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,25 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="copy_file_nhi_phan.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="copy_file_nhi_phan.Main" />
+    <configuration name="file_dung_luong_lon.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="file_dung_luong_lon.Main" />
       <module name="io_binary_file" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="copy_file_nhi_phan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="quan_li_san_pham.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="quan_li_san_pham.Main" />
-      <module name="io_binary_file" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="quan_li_san_pham.*" />
+          <option name="PATTERN" value="file_dung_luong_lon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,10 +166,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.quan_li_san_pham.Main" />
-        <item itemvalue="Application.bai_tap.Main" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.copy_file_nhi_phan.Main" />
+        <item itemvalue="Application.WriteFile" />
+        <item itemvalue="Application.ReadFile" />
+        <item itemvalue="Application.file_dung_luong_lon.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -171,6 +192,15 @@
       <workItem from="1661820562637" duration="7008000" />
       <workItem from="1661910063201" duration="67000" />
       <workItem from="1661935217604" duration="963000" />
+      <workItem from="1662343690124" duration="39000" />
+      <workItem from="1662350359981" duration="2103000" />
+      <workItem from="1662457876131" duration="2003000" />
+      <workItem from="1662473329115" duration="1194000" />
+      <workItem from="1662519199945" duration="24000" />
+      <workItem from="1662538863825" duration="512000" />
+      <workItem from="1662559566450" duration="1863000" />
+      <workItem from="1662599856632" duration="2763000" />
+      <workItem from="1663235092397" duration="2572000" />
     </task>
     <servers />
   </component>
