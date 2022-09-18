@@ -1,6 +1,7 @@
 package md2.nmh.casestudy.manager;
 
 import md2.nmh.casestudy.services.ParseDate;
+import md2.nmh.casestudy.statistic.TeacherList;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,10 +9,10 @@ import java.util.List;
 public class Classed {
     private String name;
     private int total = 0;
-    private String headTeacher;
+    private Teacher headTeacher;
     private ArrayList<Student> studentslist = new ArrayList<>();
 
-    public Classed(String name, String headTeacher) {
+    public Classed(String name, Teacher headTeacher) {
         this.name = name;
         this.headTeacher = headTeacher;
     }
@@ -23,7 +24,7 @@ public class Classed {
         Classed classed = new Classed();
         String[] informationsList = line.split(",");
         classed.name = informationsList[0];
-        classed.headTeacher = informationsList[1];
+        classed.headTeacher = TeacherList.getInstance().getById(Long.parseLong(informationsList[1]));
         return classed;
     }
 
@@ -44,10 +45,10 @@ public class Classed {
     }
 
     public String getHeadTeacher() {
-        return headTeacher;
+        return headTeacher.getName();
     }
 
-    public void setHeadTeacher(String headTeacher) {
+    public void setHeadTeacher(Teacher headTeacher) {
         this.headTeacher = headTeacher;
     }
 

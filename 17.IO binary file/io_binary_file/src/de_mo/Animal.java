@@ -1,4 +1,4 @@
-package bai_tap;
+package de_mo;
 
 public class Animal implements Comparable<Animal>{
     private boolean alive;

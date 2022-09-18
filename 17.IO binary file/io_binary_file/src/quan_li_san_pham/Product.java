@@ -48,7 +48,6 @@ public class Product implements Serializable {
             price = Integer.parseInt(item[3]);
             describe = item[4];
         } catch (ArrayIndexOutOfBoundsException e) {
-        } finally {
         }
     }
 

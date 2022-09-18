@@ -1,7 +1,7 @@
-2,Máy giặt,Dell,20,2
-5,Máy hút bụi,sony,30,Hết
-3,Điện thoại,Samsung,30,Máy rin
-7,máy tính bàn,Xiaomi,33,2
-4,Điều hòa,sunny,50,Hàng tốt
 1,Laptop,Dell,90,haaha
+2,Máy giặt,Dell,20,2
+3,Điện thoại,Samsung,30,Máy rin
+4,Điều hòa,sunny,50,Hàng tốt
+5,Máy hút bụi,sony,30,Hết
 6,Máy ủi,Chợ,300,hết
+7,máy tính bàn,Xiaomi,33,2
