@@ -704,7 +704,7 @@ public class ClassMenu {
                                 break;
                             }
                         }
-
+                        FileUtil.writeScore(PATH,students);
                         System.out.printf("%40s %s\n"," "," Thêm thành công !!!");
                         break;
                     case "Điểm học kỳ":
@@ -728,7 +728,7 @@ public class ClassMenu {
                                 break;
                             }
                         }
-
+                        FileUtil.writeScore(PATH,students);
                         System.out.printf("%40s %s\n"," "," Thêm thành công !!!");
                         break;
                 }
@@ -755,7 +755,7 @@ public class ClassMenu {
                                 break;
                             }
                         }
-
+                        FileUtil.writeScore(PATH,students);
                         System.out.printf("%40s %s\n"," "," Thêm thành công !!!");
                         break;
                     case "Điểm 15 phút":
@@ -778,7 +778,7 @@ public class ClassMenu {
                                 break;
                             }
                         }
-
+                        FileUtil.writeScore(PATH,students);
                         System.out.printf("%40s %s\n"," "," Thêm thành công !!!");
                         break;
                     case "Điểm 1 tiết":
@@ -801,7 +801,7 @@ public class ClassMenu {
                                 break;
                             }
                         }
-
+                        FileUtil.writeScore(PATH,students);
                         System.out.printf("%40s %s\n"," "," Thêm thành công !!!");
                         break;
                     case "Điểm học kỳ":
@@ -825,7 +825,7 @@ public class ClassMenu {
                                 break;
                             }
                         }
-
+                        FileUtil.writeScore(PATH,students);
                         System.out.printf("%40s %s\n"," "," Thêm thành công !!!");
                         break;
                 }
