@@ -140,7 +140,7 @@ public class StudentMenu {
         }
 
         Student student = studentsList.getById(id);
-        if (!student.getClassed().equals(teacherLogin.getClassed())) {
+        if (!student.getClassed().equals(teacherLogin.getClassed()) && teacherLogin.getRole().equals(Role.USER)) {
             System.out.printf("%40s %s\n", " ", " Bạn chỉ có quyền sửa thông tin học sinh lớp mình!!!");
             return;
         }
