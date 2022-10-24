@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36869bf0-ceda-45f2-8a45-f88e0ad767b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai_tap/Certificate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_tap/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_tap/Experience.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_tap/Fresher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_tap/Intern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_tap/Untitled.mdj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de_mo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thi Module 2/module2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thi Module 2/module2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thi Module 2/module2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thi Module 2/module2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thi Module 2/module2/module2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thi Module 2/module2/src/data/products.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thi Module 2/module2/src/quanlysanpham/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thi Module 2/module2/src/quanlysanpham/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thi Module 2/module2/src/test/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thi Module 2/module2/src/test/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QUANLYGIAODUC/quan_ly_dao_tao/src/md2/nmh/casestudy/views/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io_binary_file/quan_li_san_pham/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/io_binary_file/quan_li_san_pham/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io_binary_file/quan_li_san_pham/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/io_binary_file/quan_li_san_pham/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products.txt" beforeDir="false" afterPath="$PROJECT_DIR$/products.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_tap/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de_mo/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_tap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_tap/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_tap/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de_mo/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/quan_li_san_pham/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/quan_li_san_pham/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,18 +31,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/GitHub/Module-2/16. IO text file/io_text_file",
-    "settings.editor.selected.configurable": "preferences.general"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/GitHub/Module-2/17.IO binary file/io_binary_file&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\GitHub\Module-2\17.IO binary file\io_binary_file\src" />
@@ -177,6 +154,9 @@
       <workItem from="1663235092397" duration="3296000" />
       <workItem from="1663248346857" duration="3720000" />
       <workItem from="1663289835887" duration="1662000" />
+      <workItem from="1664952713111" duration="3720000" />
+      <workItem from="1664966991928" duration="414000" />
+      <workItem from="1666107368654" duration="686000" />
     </task>
     <servers />
   </component>
